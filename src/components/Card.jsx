@@ -20,7 +20,7 @@ function Cart() {
                 return { ...pizza, cantidad: newQuantity >= 0 ? newQuantity : 0 };
             }
             return pizza;
-        }).filter(pizza => pizza.cantidad > 0)); // Filtra las pizzas con cantidad 0
+        }).filter(pizza => pizza.cantidad > 0)); 
     };
 
     const total = cart.reduce((acc, pizza) => acc + pizza.precio * pizza.cantidad, 0);
