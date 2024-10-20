@@ -1,4 +1,4 @@
-import Cardpizza from "./components/Cardpizza"
+import Card from "./components/Card"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Login from "./components/Login"
@@ -11,9 +11,10 @@ function App() {
   return (
     <>
       <Navbar />
-      {/*<Home/>*/}
+      <Home/>
       {/*<Register/>*/}
-      <Login/>
+      {/*<Login/>*/}
+      <Card/>
       
       <Footer/>
 
